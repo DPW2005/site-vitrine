@@ -47,8 +47,8 @@
 
 .loader__logo {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
@@ -66,8 +66,8 @@
 }
 
 .loader__logo-icon {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
   animation: pulse 2s infinite ease-in-out;
 }
 
@@ -194,8 +194,8 @@
 }
 
 .header__logo-icon {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   color: var(--primary);
 }
 
@@ -381,7 +381,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 5rem;
   color: var(--text-primary);
   overflow: hidden;
 }
@@ -420,7 +420,7 @@
   position: relative;
   z-index: 1;
   max-width: 800px;
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 
 .hero__badge {
@@ -623,8 +623,8 @@
 }
 
 .about__card-icon {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   color: var(--primary);
   margin-bottom: var(--space-lg);
 }
@@ -851,8 +851,8 @@
 }
 
 .campus__card-icon-wrapper {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   margin: 0 auto var(--space-lg);
   border-radius: 50%;
   display: flex;
@@ -1023,8 +1023,8 @@
 }
 
 .admin__value-icon {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   margin: 0 auto var(--space-lg);
   color: var(--primary);
 }
@@ -1075,8 +1075,8 @@
 }
 
 .personnel__card-avatar {
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   margin: 0 auto var(--space-lg);
   border-radius: 50%;
   background: rgba(255,255,255,0.1);
@@ -1180,8 +1180,8 @@
 }
 
 .student-life__facility-icon {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
@@ -1257,8 +1257,8 @@
 }
 
 .student-life__testimonial-avatar {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
   background: var(--primary);
   color: var(--text-white);
@@ -1337,8 +1337,8 @@
 }
 
 .contact__info-icon {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
   background: var(--primary-alpha);
   display: flex;
@@ -1445,8 +1445,8 @@
 }
 
 .footer__logo-icon {
-  width: 36px;
-  height: 36px;
+  width: 2.25rem;
+  height: 2.25rem;
   color: var(--secondary);
 }
 
@@ -1467,8 +1467,8 @@
 }
 
 .footer__social-link {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
