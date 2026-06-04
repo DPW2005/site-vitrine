@@ -1,0 +1,56 @@
+# =========================================================================
+# Guide de Déploiement Docker — Site Vitrine ESFS
+# =========================================================================
+
+Ce guide détaille les étapes à suivre pour déployer votre application React/Vite en utilisant Docker.
+
+## Prérequis
+Assurez-vous d'avoir installé sur votre machine ou votre serveur :
+1. Docker (https://docs.docker.com/get-docker/)
+2. Docker Compose (Généralement inclus avec Docker Desktop)
+
+---
+
+## 1. Démarrer l'application avec Docker Compose
+
+C'est la méthode la plus simple et recommandée, car `docker-compose.yml` orchestre tout pour vous.
+
+Ouvrez un terminal dans le dossier du projet (là où se trouve le fichier `docker-compose.yml`) et tapez :
+
+```bash
+docker-compose up -d --build
+```
+
+- `--build` force la reconstruction de l'image (utile si vous avez modifié le code).
+- `-d` (detached) lance le conteneur en arrière-plan afin que vous puissiez continuer à utiliser votre terminal.
+
+## 2. Vérifier que le site fonctionne
+
+Une fois la commande terminée, ouvrez votre navigateur web et allez à l'adresse suivante :
+👉 http://localhost:8080
+
+(Note : Si vous déployez sur un serveur distant (VPS), remplacez `localhost` par l'adresse IP de votre serveur, ex: http://VOTRE_IP:8080)
+
+## 3. Commandes Utiles
+
+- **Voir les logs du conteneur** (pour vérifier s'il y a des erreurs) :
+  ```bash
+  docker-compose logs -f
+  ```
+
+- **Arrêter le site** (les conteneurs seront stoppés mais pas supprimés) :
+  ```bash
+  docker-compose stop
+  ```
+
+- **Arrêter et supprimer le site** (stoppe et détruit les conteneurs liés à ce projet) :
+  ```bash
+  docker-compose down
+  ```
+
+---
+
+## Comment ça marche en arrière-plan ? (Le Dockerfile)
+L'image Docker est construite en deux étapes (Multi-stage build) pour être très légère :
+1. **Étape Builder (Node.js)** : Docker installe les dépendances via `npm` et lance `npm run build` pour compiler le code React/Vite en fichiers statiques optimisés (HTML, CSS, JS) dans un dossier `dist/`.
+2. **Étape Serveur (Nginx)** : Docker prend un serveur web très léger (Nginx) et copie uniquement les fichiers statiques générés à l'étape 1. Cela permet d'avoir une image finale qui pèse seulement quelques mégaoctets et qui est très performante.

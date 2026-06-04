@@ -52,9 +52,13 @@ Le site est conçu sur une seule page. La navigation se fait via des ancres HTML
 
 ## 🚀 Comment Lancer le Projet
 
+Vous avez deux options pour exécuter ce projet : en local avec Node.js (idéal pour le développement) ou avec Docker (idéal pour la production ou pour tester rapidement sans installer Node.js).
+
+### Option A : Lancement Local (Développement)
+
 Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 
-1. **Installer les dépendances** (si ce n'est pas déjà fait) :
+1. **Installer les dépendances** :
    Dans le terminal, à la racine du projet, tapez :
    ```bash
    npm install
@@ -73,3 +77,21 @@ Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
    npm run build
    ```
    *Les fichiers optimisés seront générés dans le dossier `dist/`.*
+
+### Option B : Lancement avec Docker (Production / Isolé)
+
+Assurez-vous d'avoir [Docker](https://docs.docker.com/get-docker/) et Docker Compose installés. Cette méthode compile le projet puis utilise Nginx pour servir le site de manière optimisée.
+
+1. **Construire et lancer le conteneur** :
+   Dans le terminal, à la racine du projet, tapez la commande suivante :
+   ```bash
+   docker-compose up -d --build
+   ```
+
+2. **Visualiser le site** :
+   Ouvrez votre navigateur à l'adresse 👉 `http://localhost:8080`.
+
+3. **Arrêter le site** (sans le détruire) :
+   ```bash
+   docker-compose stop
+   ```
