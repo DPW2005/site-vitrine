@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: esfs-vitrine
     ports:
-      - "8080:80" # Map le port 8080 de votre machine vers le port 80 du conteneur (Nginx)
+      - "8090:80" # Map le port 8090 de votre machine vers le port 80 du conteneur (Nginx)
     restart: unless-stopped
     environment:
       - NODE_ENV=production

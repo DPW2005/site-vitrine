@@ -27,9 +27,9 @@ docker-compose up -d --build
 ## 2. Vérifier que le site fonctionne
 
 Une fois la commande terminée, ouvrez votre navigateur web et allez à l'adresse suivante :
-👉 http://localhost:8080
+👉 http://localhost:8090
 
-(Note : Si vous déployez sur un serveur distant (VPS), remplacez `localhost` par l'adresse IP de votre serveur, ex: http://VOTRE_IP:8080)
+(Note : Si vous déployez sur un serveur distant (VPS), remplacez `localhost` par l'adresse IP de votre serveur, ex: http://VOTRE_IP:8081)
 
 ## 3. Commandes Utiles
 

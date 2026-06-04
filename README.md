@@ -89,7 +89,7 @@ Assurez-vous d'avoir [Docker](https://docs.docker.com/get-docker/) et Docker Com
    ```
 
 2. **Visualiser le site** :
-   Ouvrez votre navigateur à l'adresse 👉 `http://localhost:8080`.
+   Ouvrez votre navigateur à l'adresse 👉 `http://localhost:8090`.
 
 3. **Arrêter le site** (sans le détruire) :
    ```bash
