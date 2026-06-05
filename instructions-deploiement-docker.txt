@@ -1,5 +1,5 @@
 # =========================================================================
-# Guide de Déploiement Docker — Site Vitrine ESFS
+# Guide de Déploiement Docker — Site Vitrine I3SN
 # =========================================================================
 
 Ce guide détaille les étapes à suivre pour déployer votre application React/Vite en utilisant Docker.

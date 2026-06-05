@@ -53,7 +53,7 @@ export default function About() {
           <span className="section__badge">À Propos</span>
           <h2 className="section__title">Une Institution d'Excellence au Service de la Santé</h2>
           <p className="section__subtitle">
-            Depuis plus de 25 ans, l'ESFS forme les professionnels de santé de demain
+            Depuis plus de 3 ans, l'I3SN forme les professionnels de santé de demain
             avec rigueur, passion et innovation. Notre mission : préparer des praticiens
             compétents, humains et engagés pour le continent africain et le monde.
           </p>

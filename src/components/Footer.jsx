@@ -6,10 +6,10 @@ export default function Footer() {
           <div className="footer__brand">
             <a href="#accueil" className="footer__logo">
               <img className="footer__logo-icon" viewBox="0 0 64 64" fill="none" src="favicon.png" />
-              <span className="footer__logo-name">I3S</span>
+              <span className="footer__logo-name">I3SN</span>
             </a>
             <p className="footer__desc">
-              L'Institut Supérieure des Sciences de la Santé s'engage à former
+              L'Institut Supérieure des Sciences de la Santé de Ngong s'engage à former
               l'élite médicale et paramédicale avec rigueur, innovation et humanisme.
             </p>
             <div className="footer__socials">
@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            &copy; {new Date().getFullYear()} ESFS - École Supérieure de Formation en Santé. Tous droits réservés.
+            &copy; {new Date().getFullYear()} I3SN - Insitut Supérieure des Sciences de la Santé de Ngong. Tous droits réservés.
           </p>
           <div className="footer__credits">
             Conçu avec passion pour l'éducation en Afrique.

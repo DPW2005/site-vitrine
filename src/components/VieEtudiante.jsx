@@ -33,7 +33,7 @@ const STUDENT_LIFE = [
 
 const TESTIMONIALS = [
   {
-    text: "L'ESFS m'a offert un cadre d'étude exceptionnel. Les équipements pratiques m'ont permis d'être opérationnelle dès mon premier stage à l'hôpital.",
+    text: "L'I3SN m'a offert un cadre d'étude exceptionnel. Les équipements pratiques m'ont permis d'être opérationnelle dès mon premier stage à l'hôpital.",
     name: "Mariam K.",
     role: "Étudiante en 4ème année de Médecine",
     rating: 5,
@@ -62,7 +62,7 @@ export default function VieEtudiante() {
           <span className="section__badge">Vie Étudiante</span>
           <h2 className="section__title">Un Campus Vibrant et Épanouissant</h2>
           <p className="section__subtitle">
-            Parce que les études de santé sont exigeantes, nous avons créé un environnement 
+            Parce que les études de santé sont exigeantes, nous avons créé un environnement
             où chaque étudiant peut trouver l'équilibre parfait entre travail et détente.
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function VieEtudiante() {
           {/* Facilities List */}
           <div className="student-life__facilities reveal-left">
             {STUDENT_LIFE.map((item, index) => (
-              <div 
+              <div
                 key={item.id}
                 className="student-life__facility-card"
                 style={{ '--hover-color': item.color }}
@@ -90,7 +90,7 @@ export default function VieEtudiante() {
           {/* Testimonials */}
           <div className="student-life__testimonials reveal-right">
             <h3 className="student-life__testimonials-title">Paroles d'Étudiants</h3>
-            
+
             <div className="student-life__testimonial-slider">
               <div className="student-life__testimonial-card">
                 <div className="student-life__stars">
@@ -115,7 +115,7 @@ export default function VieEtudiante() {
               {/* Slider Controls */}
               <div className="student-life__slider-controls">
                 {TESTIMONIALS.map((_, idx) => (
-                  <button 
+                  <button
                     key={idx}
                     className={`student-life__slider-dot ${activeTab === idx ? 'active' : ''}`}
                     onClick={() => setActiveTab(idx)}

@@ -2,8 +2,8 @@ const VALUES = [
   {
     icon: (
       <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.5">
-        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none"/>
-        <path d="M24 12v24M12 24h24" strokeLinecap="round"/>
+        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none" />
+        <path d="M24 12v24M12 24h24" strokeLinecap="round" />
       </svg>
     ),
     title: 'Excellence Académique',
@@ -12,8 +12,8 @@ const VALUES = [
   {
     icon: (
       <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.5">
-        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none"/>
-        <path d="M16 24l4 4 12-12" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none" />
+        <path d="M16 24l4 4 12-12" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
     title: 'Innovation Pédagogique',
@@ -22,9 +22,9 @@ const VALUES = [
   {
     icon: (
       <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2.5">
-        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none"/>
-        <path d="M24 14c-6 0-10 4-10 8s4 8 10 8 10-4 10-8-4-8-10-8z" strokeLinecap="round"/>
-        <circle cx="24" cy="22" r="3"/>
+        <circle cx="24" cy="24" r="20" opacity="0.15" fill="currentColor" stroke="none" />
+        <path d="M24 14c-6 0-10 4-10 8s4 8 10 8 10-4 10-8-4-8-10-8z" strokeLinecap="round" />
+        <circle cx="24" cy="22" r="3" />
       </svg>
     ),
     title: 'Humanisme',
@@ -40,7 +40,7 @@ export default function Administration() {
           <span className="section__badge">Administration</span>
           <h2 className="section__title">Direction & Gouvernance</h2>
           <p className="section__subtitle">
-            Une équipe de direction expérimentée et visionnaire, guidée par l'ambition 
+            Une équipe de direction expérimentée et visionnaire, guidée par l'ambition
             de former l'élite médicale africaine.
           </p>
         </div>
@@ -60,9 +60,9 @@ export default function Administration() {
             <h3 className="admin__dean-name">Pr. Jean-Baptiste Mensah</h3>
             <p className="admin__dean-role">Doyen de la Faculté — Professeur Titulaire en Chirurgie</p>
             <blockquote className="admin__dean-quote">
-              « Notre engagement est de fournir à chaque étudiant les compétences, 
-              les connaissances et les valeurs nécessaires pour devenir un professionnel 
-              de santé accompli. L'ESFS n'est pas simplement une école, c'est une famille 
+              « Notre engagement est de fournir à chaque étudiant les compétences,
+              les connaissances et les valeurs nécessaires pour devenir un professionnel
+              de santé accompli. L'I3SN n'est pas simplement une école, c'est une famille
               qui accompagne chaque futur praticien dans son parcours vers l'excellence. »
             </blockquote>
             <div className="admin__dean-signature">

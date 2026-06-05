@@ -1,4 +1,4 @@
-# ESFS — École Supérieure de Formation en Santé
+# I3SN — Institut Supérieur des Sciences de la Santé de Ngong
 
 Un site web vitrine premium et moderne pour une école supérieure formant dans le domaine de la santé (médecine, dentaire, kinésithérapie, etc.). Développé avec React et Vite.
 

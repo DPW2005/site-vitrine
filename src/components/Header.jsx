@@ -67,7 +67,7 @@ export default function Header() {
         <a href="#accueil" className="header__logo" onClick={(e) => handleNavClick(e, 'accueil')}>
           <img className="header__logo-icon" viewBox="0 0 64 64" fill="none" src='favicon.png' />
           <div className="header__logo-text">
-            <span className="header__logo-name">I3S</span>
+            <span className="header__logo-name">I3SN</span>
             <span className="header__logo-tagline">Formation en Santé</span>
           </div>
         </a>

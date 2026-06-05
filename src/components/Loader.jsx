@@ -45,7 +45,7 @@ export default function Loader({ onLoadComplete }) {
           </svg>
         </div>
 
-        <h1 className="loader__title">I3S</h1>
+        <h1 className="loader__title">I3SN</h1>
         <p className="loader__subtitle">Institut Supérieure des Sciences de la Santé de Ngong</p>
 
         {/* Progress bar */}
