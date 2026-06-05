@@ -42,7 +42,7 @@ export default function Header() {
     });
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
       observer.disconnect();
@@ -65,13 +65,9 @@ export default function Header() {
       <div className="container header__inner">
         {/* Logo */}
         <a href="#accueil" className="header__logo" onClick={(e) => handleNavClick(e, 'accueil')}>
-          <svg className="header__logo-icon" viewBox="0 0 64 64" fill="none">
-            <rect width="64" height="64" rx="14" fill="currentColor"/>
-            <path d="M32 16L32 48" stroke="white" strokeWidth="5" strokeLinecap="round"/>
-            <path d="M16 32L48 32" stroke="white" strokeWidth="5" strokeLinecap="round"/>
-          </svg>
+          <img className="header__logo-icon" viewBox="0 0 64 64" fill="none" src='favicon.png' />
           <div className="header__logo-text">
-            <span className="header__logo-name">ESFS</span>
+            <span className="header__logo-name">I3S</span>
             <span className="header__logo-tagline">Formation en Santé</span>
           </div>
         </a>

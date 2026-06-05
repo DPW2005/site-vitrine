@@ -5,10 +5,10 @@ export default function Loader({ onLoadComplete }) {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    const duration = 5000;
+    const duration = 1500;
     const interval = 50;
     const step = (interval / duration) * 100;
-    
+
     const timer = setInterval(() => {
       setProgress(prev => {
         const next = prev + step;
@@ -40,25 +40,25 @@ export default function Loader({ onLoadComplete }) {
         <div className="loader__logo">
           <div className="loader__logo-ring"></div>
           <svg className="loader__logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M32 14L32 50" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/>
-            <path d="M14 32L50 32" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/>
+            <path d="M32 14L32 50" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
+            <path d="M14 32L50 32" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
           </svg>
         </div>
-        
+
         <h1 className="loader__title">ESFS</h1>
         <p className="loader__subtitle">École Supérieure de Formation en Santé</p>
-        
+
         {/* Progress bar */}
         <div className="loader__progress-wrapper">
           <div className="loader__progress-bar">
-            <div 
+            <div
               className="loader__progress-fill"
               style={{ width: `${progress}%` }}
             ></div>
           </div>
           <span className="loader__progress-text">{Math.round(progress)}%</span>
         </div>
-        
+
         <p className="loader__loading-text">
           Chargement en cours
           <span className="loader__dot loader__dot--1">.</span>
@@ -66,7 +66,7 @@ export default function Loader({ onLoadComplete }) {
           <span className="loader__dot loader__dot--3">.</span>
         </p>
       </div>
-      
+
       {/* Background decorative elements */}
       <div className="loader__deco loader__deco--1"></div>
       <div className="loader__deco loader__deco--2"></div>

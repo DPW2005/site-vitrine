@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <section id="accueil" className="hero">
       <div className="hero__bg">
-        <img 
-          src="/hero-bg.png" 
-          alt="Étudiants africains en blouse blanche dans un campus médical moderne" 
+        <img
+          src="/hero-bg.png"
+          alt="Étudiants africains en blouse blanche dans un campus médical moderne"
           className="hero__bg-img"
           loading="eager"
         />
@@ -23,8 +23,8 @@ export default function Hero() {
         </h1>
 
         <p className="hero__subtitle">
-          Rejoignez l'École Supérieure de Formation en Santé et bénéficiez d'un 
-          enseignement de qualité, d'infrastructures modernes et d'un encadrement 
+          Rejoignez l'Institut Supérieure des Sciences en Santé de Ngong et bénéficiez d'un
+          enseignement de qualité, d'infrastructures modernes et d'un encadrement
           par des professionnels de renommée internationale.
         </p>
 
@@ -35,7 +35,7 @@ export default function Hero() {
           }}>
             Découvrir nos Formations
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
+              <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
           <a href="#contact" className="btn btn--secondary btn--lg" onClick={(e) => {
@@ -45,16 +45,17 @@ export default function Hero() {
             Candidater
           </a>
         </div>
+        <br />
 
         {/* Stats bar */}
         <div className="hero__stats">
           <div className="hero__stat">
-            <span className="hero__stat-number">+2500</span>
+            <span className="hero__stat-number">+1500</span>
             <span className="hero__stat-label">Étudiants</span>
           </div>
           <div className="hero__stat-divider"></div>
           <div className="hero__stat">
-            <span className="hero__stat-number">15</span>
+            <span className="hero__stat-number">10</span>
             <span className="hero__stat-label">Formations</span>
           </div>
           <div className="hero__stat-divider"></div>
@@ -64,7 +65,7 @@ export default function Hero() {
           </div>
           <div className="hero__stat-divider"></div>
           <div className="hero__stat">
-            <span className="hero__stat-number">25+</span>
+            <span className="hero__stat-number">3+</span>
             <span className="hero__stat-label">Ans d'Excellence</span>
           </div>
         </div>

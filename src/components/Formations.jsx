@@ -57,7 +57,7 @@ export default function Formations() {
           <span className="section__badge">Formations</span>
           <h2 className="section__title">Nos Filières d'Excellence</h2>
           <p className="section__subtitle">
-            Des programmes rigoureux conçus pour former les leaders de la santé de demain, 
+            Des programmes rigoureux conçus pour former les leaders de la santé de demain,
             avec un équilibre parfait entre enseignement théorique et pratique clinique.
           </p>
         </div>
@@ -69,8 +69,8 @@ export default function Formations() {
                 <span className="formations__card-icon">{formation.icon}</span>
                 <div className="formations__card-duration">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M12 6v6l4 2"/>
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
                   </svg>
                   {formation.duration}
                 </div>
@@ -82,7 +82,7 @@ export default function Formations() {
                 <button className="formations__card-btn" style={{ color: formation.color }}>
                   En savoir plus
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                    <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
                 </button>
               </div>
