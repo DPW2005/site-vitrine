@@ -481,6 +481,7 @@
   max-width: 600px;
   margin-bottom: var(--space-2xl);
   animation: fadeInUp 0.8s ease-out 0.4s both;
+  color: rgb(241, 241, 241);
 }
 
 .hero__actions {
@@ -1539,4 +1540,14 @@
     gap: 1rem;
     text-align: center;
   }
+}
+
+
+/*****************************/
+.test-cover {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
 }

@@ -2,6 +2,7 @@ export default function Hero() {
   return (
     <section id="accueil" className="hero">
       <div className="hero__bg">
+        <div className="test-cover"></div>
         <img
           src="/hero-bg.png"
           alt="Étudiants africains en blouse blanche dans un campus médical moderne"
